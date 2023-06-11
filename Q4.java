@@ -24,5 +24,8 @@ public static void main(String[] args) {
 				  }
 				  System.out.println();
 			}
-	}
+	  	} catch (SQLException e) {
+			    e.printStackTrace();
+			    System.out.println("Create Table Exception :" + e.toString());
+		}
 }
