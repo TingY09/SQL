@@ -1,5 +1,9 @@
 // 找到那些未在承諾時間內交付的包裝。
 public static void main(String[] args) {
+		Connection connection = null;
+		String url = "jdbc:mariadb://140.127.74.226:3306/M11075706";
+		String user = "M11075706";
+		String pwd = "M11075706";
 		PreparedStatement pst = null;
 		Statement stmt = null;
 		try {
