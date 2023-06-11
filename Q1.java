@@ -1,4 +1,4 @@
-//
+//查找過去一年中購買最多的客戶（按價格）。
 	public static void main(String[] args) {
 		Connection connection = null;
 		String url = "jdbc:mariadb://140.127.74.226:3306/M11075706";
