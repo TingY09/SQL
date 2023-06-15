@@ -1,4 +1,16 @@
 //查找過去一年中購買最多的客戶（按價格）。
+package TEST;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class Test {
+
 	public static void main(String[] args) {
 			Connection connection = null;
 			String url = "jdbc:mariadb://140.127.74.226:3306/M11075706";
@@ -34,4 +46,5 @@
 			    e.printStackTrace();
 			    System.out.println("Create Table Exception :" + e.toString());
 		}
+	}
 }
