@@ -24,7 +24,7 @@
     
     10. Inventory：儲存商品庫存量資料。
     
-    Table詳細內容請參閱
+    Table詳細內容請參閱ERD及Schema。
     各表格資料量如下
     
 ![image](https://github.com/TingY09/SQL/assets/115611580/3682d611-b88e-4f09-a832-c09d6c487940)
