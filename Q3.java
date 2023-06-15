@@ -1,4 +1,16 @@
 // 在高雄的每家商店找到缺貨的產品。
+package TEST;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class Test {
+
 public static void main(String[] args) {
 		Connection connection = null;
 		String url = "jdbc:mariadb://140.127.74.226:3306/M11075706";
@@ -32,4 +44,5 @@ public static void main(String[] args) {
 			e.printStackTrace();
 			System.out.println("Create Table Exception :" + e.toString());
 		}
+	}
 }
